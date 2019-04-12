@@ -1,0 +1,1 @@
+# thinstation_conf
