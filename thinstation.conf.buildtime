@@ -1,0 +1,36 @@
+USE_XRANDR=TRUE
+AUDIO_LEVEL=90
+MIC_LEVEL=0
+SESSION_0_TYPE=sh
+SESSION_0_AUTOSTART=on
+#NET_USE=BOTH
+NET_USE_DHCP=off
+NET_HOSTNAME=ts_*
+NET_FILE_ENABLED=off
+NET_FILE_METHOD=tftp
+NET_TELNETD_ENABLED=ON
+TIME_ZONE="Europe/Moscow"
+NET_TIME_SERVER=europe.pool.ntp.org
+NET_REMOTE_ACCESS_FROM="0.0.0.0"
+TFTP_BLOCKSIZE=1024
+BIND_MOUNT0="storage:/mnt/storage"
+STORAGE_CONFIG1=/mnt/storage
+USB_STORAGE_SYNC=on
+LOCALE=ru_RU
+MOUNT_0="LABEL=boot     /boot           auto    x-mount.mkdir,defaults  0       0"
+MOUNT_1="LABEL=home     /root           auto    x-mount.mkdir,defaults  0       0"
+MOUNT_2="LABEL=swap     swap            swap    defaults        0       0"
+X_DRIVER_OPTION1="swcursor On"
+X_NUMLOCK=On
+#XKEYBOARD="ru,us"
+#XKBVARIANT="winkeys,"
+#XKBOPTIONS="grp:alt_shift_toggle,grp_led:scroll"
+PKG_PREFIX=pkg
+RECONNECT_PROMPT=On
+MOUSE_DRIVER=mouse
+PRINTER_0_NAME=parallel
+PRINTER_0_DEVICE=/dev/printers/0
+PRINTER_0_TYPE=P
+PRINTER_1_NAME=usb
+PRINTER_1_DEVICE=/dev/usb/lp0
+PRINTER_1_TYPE=U
